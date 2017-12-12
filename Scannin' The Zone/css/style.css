@@ -1,0 +1,369 @@
+body {
+    position: relative;
+}
+#section1 {padding-top:40px;
+  padding-bottom: 0px; height:auto; color: #fff; background-color: white;}
+#section2 {padding:0px;height:auto;color: #fff; background-color: white;}
+#section3 {padding-top:55px;height:auto;color: #fff; background-color: white;}
+#section4 {padding-top:55px;height:auto;color: #fff; background-color: white;}
+
+#section41 {padding-top:50px;height:200px;color: #fff; background-color: white;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+nav {
+  background-color: white!important;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+
+
+border-color: grey;
+  border: none !important;
+font-family: 'Montserrat', sans-serif;
+height: 90px;
+
+}
+
+navbar-brand {
+  font-weight: 700 !important;
+}
+
+a{
+color: grey !important;
+margin-top: 20px;
+}
+a:hover {
+  color: #2ebbce !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#text {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 35px;
+    padding-left: 150px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+pre {
+  text-align: left;
+  background-color: #DC7F55;
+  color: white;
+
+  white-space: pre-wrap;
+word-wrap: break-word;
+text-align: justify;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #2ebbce;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer{
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+/*  RUTAS  */
+
+.textoruta {
+  background-color: white;
+  text-align: left;
+  flex: initial;
+font-family: 'Roboto', sans-serif;
+color: #2ebbce;
+margin-left: -75px;
+}
+
+.fotoruta {
+  height: 350px!important;
+  width: 500px!important;
+  margin-left: 50px;
+  border-radius: 5px;
+
+}
+
+.ruta {
+  margin-left: -40px!important;
+}
+
+h2 {
+  font-size: 23px;
+  color: #2ebbce;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+.example {
+  color: grey!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+   background-color: none;
+   color: black;
+   padding: 0px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 337px;
+   max-width: 337px;
+
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   margin-left: 33px;
+   font-family: 'Roboto', sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   color: #EFB348!important;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+   background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    background-color: #f39442;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.button2 {
+    background-color: #2ebbce;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.button3 {
+    background-color: #f39442;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.w3-display-container {
+  width: 1028px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #2ebbce;
+      color: white;
+}
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+
+
+
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
